@@ -1,5 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+
+.pocker-card{
+    width: 230px;
+    height: 350px;
+    border-radius: 18px;
+    background-color: white;
+}
+
+
+.number{
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbolUp,
+.symbolDown{
+    font-size: 3rem;
+    color: red
+    ;
 }
